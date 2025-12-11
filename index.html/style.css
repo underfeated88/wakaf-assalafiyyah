@@ -1,0 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url('images/wakaf1.jpg') center/cover no-repeat;
+}
+
+/* SECTION TITLES */
+.section-title {
+    font-weight: 700;
+    font-size: 32px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background: #ffc107;
+    display: block;
+    margin: 10px auto 0;
+}
+
+/* PROGRAM CARD */
+.program-card {
+    transition: 0.3s;
+    border-radius: 12px;
+}
+
+.program-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* GALLERY */
+.gallery-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* NAVBAR */
+.nav-link {
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-size: 22px;
+}
